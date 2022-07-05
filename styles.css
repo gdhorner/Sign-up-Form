@@ -1,0 +1,31 @@
+html{
+    height: 100vh;
+    display: flex;
+}
+
+
+body{
+    display: flex;
+    flex: 1;
+}
+
+.left-body, .right-body{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.left-body{
+    background-image: url("images/switz.jpg");
+    background-size: cover;
+}
+
+
+.header{
+    background-color: darkslategrey;
+}
+
+img{
+    width: 100px;
+    height: auto;
+}
